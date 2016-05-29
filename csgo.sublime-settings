@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"cfg"
+	],
+	"tab_size": 8,
+    "translate_tabs_to_spaces": false,
+    "scroll_past_end": true,
+}
