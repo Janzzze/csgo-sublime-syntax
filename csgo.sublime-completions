@@ -1,0 +1,15 @@
+{
+        "scope": "source.cfg",
+        "completions": [
+
+        	{ "trigger": "alias", "contents": "alias ${1:[aliasName]} \"${2:[commands]}\"" },
+        	{ "trigger": "bind", "contents": "bind ${1:[key]} \"${2:[commands]}\"" },
+        	{ "trigger": "bindtoggle", "contents": "bindtoggle ${1:[key]} \"${2:[commands]}\"" },
+        	{ "trigger": "toggle", "contents": "toggle" },
+        	{ "trigger": "exec", "contents": "exec ${1:[file]}" },
+        	{ "trigger": "unbindall", "contents": "unbindall" },
+        	{ "trigger": "unbind", "contents": "unbind ${1:[key]}" },
+        	{ "trigger": "incrementvar", "contents": "incrementvar ${1:[varName]} ${2:[min]} ${3:[max]} ${4:[step]}" },
+        	{ "trigger": "echo", "contents": "echo ${1:[message]}" },
+]
+}
